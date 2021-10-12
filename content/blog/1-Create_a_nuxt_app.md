@@ -1,7 +1,7 @@
 ---
 title: 1- Create a nuxt app
 date: 2021-10-12T07:49:02.194Z
-description: Woot !
+description: --> This is the first step
 ---
 
 ```

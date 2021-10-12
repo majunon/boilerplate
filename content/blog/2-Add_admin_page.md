@@ -4,7 +4,7 @@ date: 2021-10-12T07:49:02.194Z
 description: Woot !
 ---
 
-In static/admin/index.html
+In static/admin/index.html :
 
 ```
 <!DOCTYPE html>
@@ -23,7 +23,7 @@ In static/admin/index.html
 </html>
 ```
 
-In static/admin/config.yml
+In static/admin/config.yml :
 
 ```
 backend:
@@ -47,4 +47,16 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+```
+
+In pages/index.vue :
+
+```
+export default {
+  head() {
+    return {
+      script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
+    };
+  },
+};
 ```
