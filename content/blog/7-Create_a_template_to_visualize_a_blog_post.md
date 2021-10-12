@@ -2,6 +2,8 @@
 title: 7- Create a template to visualize a blog post
 date: 2021-10-12T07:50:02.194Z
 description: Woot !
+next: 0
+previous: 6-Add_a_blog_list_page
 ---
 
 Create a file named \_slug.vue in pages/ and add this content :

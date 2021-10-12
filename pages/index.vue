@@ -1,12 +1,12 @@
 <template>
-  <div>
-    <h1>Nuxt + Netlify CMS Boilerplate</h1>
-    <h2>an how-to guide</h2>
-    <li v-for="post of posts" :key="post.slug">
-      <NuxtLink :to="post.slug">
+  <div class="container">
+    <h1 class="title is-1 has-text-primary">Nuxt + Netlify CMS Boilerplate</h1>
+    <h2 class="subtitle is-2 has-text-info">an how-to guide</h2>
+    <div v-for="post of posts" :key="post.slug" class="box">
+      <NuxtLink :to="post.slug" class="has-text-black">
         {{ post.title }}
       </NuxtLink>
-    </li>
+    </div>
   </div>
 </template>
 

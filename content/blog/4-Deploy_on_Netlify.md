@@ -2,6 +2,8 @@
 title: 4- Deploy on Netlify
 date: 2021-10-12T07:50:02.194Z
 description: Woot !
+next: 5-Configure_identity_OAuth_on_Netlify
+previous: 3-Initial_commit
 ---
 
 - Log in on [Netlify](https://www.netlify.com)

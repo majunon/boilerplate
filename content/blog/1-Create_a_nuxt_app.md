@@ -2,6 +2,8 @@
 title: 1- Create a nuxt app
 date: 2021-10-12T07:49:02.194Z
 description: --> This is the first step
+next: 2-Add_admin_page
+previous: 0
 ---
 
 ```

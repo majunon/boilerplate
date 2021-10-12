@@ -2,6 +2,8 @@
 title: 2- Add admin page
 date: 2021-10-12T07:49:02.194Z
 description: Woot !
+next: 3-Initial_commit
+previous: 1-Create_a_nuxt_app
 ---
 
 In static/admin/index.html :
