@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container box">
     <h1 class="title is-1 has-text-primary">Nuxt + Netlify CMS Boilerplate</h1>
     <h2 class="subtitle is-2 has-text-info">an how-to guide</h2>
     <div v-for="post of posts" :key="post.slug" class="box">
