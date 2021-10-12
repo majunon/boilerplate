@@ -2,7 +2,7 @@
 title: 6- Add a blog list page
 date: 2021-10-12T07:50:02.194Z
 description: Woot !
-next: 7-Create_a_blog_list_page
+next: 7-Create_a_template_to_visualize_a_blog_post
 previous: 5-Configure_Identity_OAuth_on_Netlify
 ---
 
