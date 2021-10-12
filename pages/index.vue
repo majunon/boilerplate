@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h1>Nuxt + Netlify CMS Boileplate</h1>
+    <h1>Nuxt + Netlify CMS Boilerplate</h1>
+    <h2>an how-to guide</h2>
     <li v-for="post of posts" :key="post.slug">
       <NuxtLink :to="post.slug">{{ post.title }}</NuxtLink>
     </li>
@@ -23,3 +24,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+  h1,h2{
+    text-align: center;
+  }
+</style>

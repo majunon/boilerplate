@@ -6,7 +6,7 @@ export default {
   head: {
     title: 'boilerplate',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'fr'
     },
     meta: [
       { charset: 'utf-8' },
