@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1>Nuxt + Netlify CMS Boileplate</h1>
     <h2>{{ post.title }}</h2>
     <nuxt-content :document="post" />
   </div>
