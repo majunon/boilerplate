@@ -10,4 +10,5 @@ cd ~/<nom du projet>/static
 mkdir admin
 cd admin
 touch index.html config.yml
+cd ~/<nom du projet>/
 ```
