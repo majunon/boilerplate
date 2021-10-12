@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container box">
     <h2 class="subtitle is-2 has-text-info">{{ post.title }}</h2>
     <nuxt-content :document="post" />
     <nav class="pagination is-justify-content-center">
