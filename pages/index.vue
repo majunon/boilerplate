@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1>Nuxt + Netlify CMS Boileplate</h1>
     <li v-for="post of posts" :key="post.slug">
       <NuxtLink :to="post.slug">{{ post.title }}</NuxtLink>
     </li>
