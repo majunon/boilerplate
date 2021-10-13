@@ -22,3 +22,18 @@ use this template to display a list of blog titles :
   </div>
 </template>
 ```
+
+and use this script to fetch the titles. This will sort the blog post using the slug.
+
+```
+async asyncData({ $content }) {
+  const posts = await $content("blog").fetch();
+  posts.sort((a,b) => {
+    if(a.slug < b.slug){return -1;}
+    else{return 1;}
+  });
+  return {
+    posts,
+  };
+},
+```
